@@ -26,8 +26,18 @@ writeMsg2("Bob", "LENON");
 writeMsg2("Caterina", "THEMISTOCLES");
 
 /* EXERCICE 4 */
-
-
+function valueCompare($arg1, $arg2) {
+settype($arg1, "integer");
+settype($arg2, "integer");
+if ($arg1 > $arg2) {
+    echo "Le premier nombre est plus grand.";
+  } elseif ($arg1 < $arg2) {
+    echo "Le premier nombre est plus petit.";
+  } else {
+    echo "Les deux nombres sont identiques.";
+  }
+}
+valueCompare(35, 85);
 /* EXERCICE 5 */
 
 
@@ -36,7 +46,9 @@ writeMsg2("Caterina", "THEMISTOCLES");
 
 /* EXERCICE 7 */
 
+
 /* EXERCICE 8 */
+
 
  ?>
 </body>
