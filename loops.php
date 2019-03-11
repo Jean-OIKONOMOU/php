@@ -53,10 +53,19 @@ print "<br />";
 print "<br />";
 
 /* EXERCICE 7 */
-
+for ($i = 1; $i <= 100; $i += 15) {
+    echo "On tient le bon bout. On est au numéro: " . $i . "<br />";
+    $count2++;
+}
+echo "Le message s'affiche " . $count2 . " fois.";
+print "<br />";
+print "<br />";
 
 /* EXERCICE 8 */
-
+for ($i = 200; $i >= 0; $i -= 12) {
+    echo "Enfin!!!. On est au numéro: " . $i . "<br />";
+    $count3++;
+}  echo "On a fait " . $count3 . " pas.";
 
  ?>
 </body>
