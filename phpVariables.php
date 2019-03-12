@@ -1,7 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-<body>
 <?php
 /* PHP-EX-VARIABLES */
 /* EXERCICE 1 */
@@ -40,6 +37,3 @@ $prixShirt = 785;
 $montantRistourne = (785/100)*30;
 print "<p> " . "Le prix du t-shirt de base s'éléve à: " . $prixShirt . ". " . "Le montant de la ristourne s'éléve à : " . $montantRistourne . ". " . "Le nouveau prix d'un t-shirt s'éléve donc à: " . ($prixShirt-$montantRistourne) . ". " . "</p>";
  ?>
- <p>Your age is <?php echo $age ?>.</p>
-</body>
-</html>

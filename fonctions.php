@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 if (!ini_get('display_errors')) {
     ini_set('display_errors', '1');
@@ -84,5 +80,3 @@ function makecoffee(int $a = 1, int $b = 2, int $c = 3) {
 }
 echo makecoffee();
  ?>
-</body>
-</html>

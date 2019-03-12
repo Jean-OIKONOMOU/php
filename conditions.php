@@ -1,7 +1,3 @@
-
-<!DOCTYPE html>
-<html>
-<body>
 <?php
 /* PHP-EX-CONDITIONS */
 /* EXERCICE 1 */
@@ -105,6 +101,3 @@ if ($maVariable3) {
   print "<br />\n" . 'c\'est pas bon !!!' . "<br />\n";
 };
  ?>
-
-</body>
-</html>

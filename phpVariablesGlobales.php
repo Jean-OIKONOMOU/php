@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 <?php
 /* PHP-EX-VARIABLES-GLOBALES */
 /* EXERCICE 1 */
@@ -22,5 +19,3 @@ print_r($browser);*/
 
 
  ?>
-</body>
-</html>

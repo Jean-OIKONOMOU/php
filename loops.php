@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 <?php
 /* PHP-EX-VARIABLES */
 /* EXERCICE 1 */
@@ -68,5 +65,3 @@ for ($i = 200; $i >= 0; $i -= 12) {
 }  echo "On a fait " . $count3 . " pas.";
 
  ?>
-</body>
-</html>
