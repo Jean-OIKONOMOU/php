@@ -12,7 +12,7 @@
     }
      echo file_get_contents("https://www.xyz.com/page1.php?check=10");
 ?> -->
-<form action="/exercices/userGET.php" method="get" target="_blank">
+<form action="/exercices/userPOST.php" method="post" target="_blank">
   First name: <input type="text" name="fname"><br>
   Last name: <input type="text" name="lname"><br>
   <input type="submit" value="Submit">

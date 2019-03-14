@@ -1,4 +1,11 @@
 <?php
+if (!ini_get('display_errors')) {
+    ini_set('display_errors', '1');
+}
+
+echo ini_get('display_errors');
+ini_set('log_errors', 1);
+  ini_set('display_errors', 1);
 /* PHP-EX-VARIABLES */
 /* EXERCICE 1 */
 for ($i = 1; $i <= 10; $i++) {
