@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../master.css">
+  </head>
+  <body>
+
+  </body>
+</html>
 <?php
 if (!ini_get('display_errors')) {
     ini_set('display_errors', '1');

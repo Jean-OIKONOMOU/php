@@ -6,4 +6,258 @@ html {
   font-family:"Lucida Console", Monaco, monospace;
   word-wrap: 1.2;
   display:block;
+  margin-top: 50px;
+}
+
+p {
+  font-weight: bold;
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 5s infinite;
+    /* Mozilla */
+    /* Internet Explorer */
+    -ms-animation: rainbow 5s infinite;
+    /* Opera too? */
+    /* Standar Syntax */
+    animation: rainbow 5s infinite;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: overline;
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 1s infinite;
+    /* Mozilla */
+    /* Internet Explorer */
+    -ms-animation: rainbow 1s infinite;
+    /* Opera too? */
+    /* Standar Syntax */
+    animation: rainbow 1s infinite;
+    transition: 1s;
+/*    animation: spin 10s linear infinite;
+      Set our animation play state to paused initially
+      animation-play-state: paused;*/
+}
+
+a:hover {
+  background-color: #3e8e41;
+  color: white;
+  text-decoration: none;
+  text-decoration-color: none;
+  text-decoration-style: none;
+  animation-play-state: running;
+  /* Chrome, Safari, Opera */
+  -webkit-animation: rotating;
+  /* Mozilla */
+  -moz-animation: rotating;
+  /* Internet Explorer */
+  -ms-animation: rotating;
+  /* Opera too? */
+  -o-animation: rotating;
+  /* Standar Syntax */
+  animation: rotating;
+}
+/*
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}*/
+/* MAGIC WAND ROTATION */
+/* Internet Explorer */
+@-ms-keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Standar Syntax */
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: orange;
+  }
+
+  10% {
+    color: purple;
+  }
+
+  20% {
+    color: red;
+  }
+
+  30% {
+    color: CadetBlue;
+  }
+
+  40% {
+    color: yellow;
+  }
+
+  50% {
+    color: coral;
+  }
+
+  60% {
+    color: green;
+  }
+
+  70% {
+    color: cyan;
+  }
+
+  80% {
+    color: DeepPink;
+  }
+
+  90% {
+    color: DodgerBlue;
+  }
+
+  95% {
+    color: Firebrick;
+  }
+
+  100% {
+    color: orange;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+  0% {
+    color: orange;
+  }
+
+  10% {
+    color: purple;
+  }
+
+  20% {
+    color: red;
+  }
+
+  30% {
+    color: CadetBlue;
+  }
+
+  40% {
+    color: yellow;
+  }
+
+  50% {
+    color: coral;
+  }
+
+  60% {
+    color: green;
+  }
+
+  70% {
+    color: cyan;
+  }
+
+  80% {
+    color: DeepPink;
+  }
+
+  90% {
+    color: DodgerBlue;
+  }
+
+  100% {
+    color: orange;
+  }
+}
+
+/* Standar Syntax */
+@keyframes rainbow {
+  0% {
+    color: orange;
+  }
+
+  10% {
+    color: purple;
+  }
+
+  20% {
+    color: red;
+  }
+
+  30% {
+    color: CadetBlue;
+  }
+
+  40% {
+    color: yellow;
+  }
+
+  50% {
+    color: coral;
+  }
+
+  60% {
+    color: green;
+  }
+
+  70% {
+    color: cyan;
+  }
+
+  80% {
+    color: DeepPink;
+  }
+
+  90% {
+    color: DodgerBlue;
+  }
+
+  100% {
+    color: orange;
+  }
 }
